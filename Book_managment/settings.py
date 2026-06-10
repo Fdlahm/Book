@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4)1_%6g8$l5xvpi6^(o=u%d4mdghhqw4bz9ut0$&lg6kmeud6!
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "book.onrender.com",
+    "Book_managment.onrender.com",
     "localhost",
     "127.0.0.1",
     
