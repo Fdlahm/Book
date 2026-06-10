@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Employee Detail</h2>
+<table>
+    <tr>
+        <th>Employee Name</th>
+        <td>{{object.name}}</td>
+    </tr>
+    <tr>
+        <th>Salary</th>
+        <td>{{object.salary}}</td>
+    </tr>
+    <tr>
+        <th>designation</th>
+        <td>{{object.designation}}</td>
+    </tr>
+    <tr>
+        <th>Department Name</th>
+        <td>{{object.department}}</td>
+    </tr>
+</table>
+
+<a href="/">Back</a>
+
+{% endblock  %}
